@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body
+    class="bg-bground text-primary font-MontserratAlternates relative lg:mx-0 mx-3"
+  >
+    <div class="">
+      <nav class="lg:flex lg:justify-between items-center lg:mx-20">
+        <div
+          class="flex justify-between lg:mt-10 mt-5 lg:mb-5 lg:pl-0 mb-10"
+          id="justify"
+        >
+          <span
+            class="font-CrimsonPro text-xs uppercase font-extralight border-2 p-2"
+            id="hidden1"
+          >
+            This interior
+          </span>
+          <button
+            class="w-9 top-0 lg:hidden cursor-pointer focus:outline-none"
+            id="toggleOpen"
+          >
+            <svg
+              data-slot="icon"
+              fill="none"
+              stroke-width="2.0"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap=""
+                stroke-linejoin="x"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              ></path>
+            </svg>
+          </button>
+
+          <button
+            class="w-9 top-0 lg:hidden cursor-pointer focus:outline-none hidden"
+            id="toggleClose"
+          >
+            <svg
+              data-slot="icon"
+              fill="none"
+              stroke-width="2.0"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18 18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <div
+          class="lg:flex lg:justify-end lg:relative items-center hidden h-screen lg:h-0"
+          id="navigation"
+        >
+          <ul
+            class="lg:flex lg:gap-x-20 text-18 lg:mt-2 lg:pt-0 absolute text-center left-0 right-0 mx-auto justify-center mt-40 lg:relative"
+            id="menu"
+          >
+            <li class="">
+              <a
+                href="/"
+                class="font-MontserratAlternates font-semibold border-b-2 pb-2"
+                >Home</a
+              >
+            </li>
+
+            <li class="mt-6 lg:mt-0">
+              <a
+                class="hover:border-b-2 hover:pb-2 hover:text-xl hover:duration-500"
+                href="/"
+                >Collection</a
+              >
+            </li>
+
+            <li class="mt-6 lg:mt-0">
+              <a
+                class="hover:border-b-2 hover:pb-2 hover:text-xl hover:duration-500"
+                href="/"
+                >About</a
+              >
+            </li>
+
+            <li class="mt-6 lg:mt-0">
+              <a
+                class="hover:border-b-2 hover:pb-2 hover:text-xl hover:duration-500"
+                href="/"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- End nav -->
+    <div class="lg:mx-20 lg:mt-44 lg:relative" id="hidden2">
+      <div class="lg:flex lg:justify-between">
+        <div>
+          <h2 class="lg:flex font-Lora lg:text-5xl lg:mt-36 text-4xl mb-6">
+            Modern interior
+          </h2>
+          <p
+            class="lg:text-2xl lg:w-96 lg:mt-10 lg:mb-12 font-thin text-14 w-56"
+          >
+            A full-Service residental & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <div
+            class="flex items-center text-14 font-bold lg:text-lg mt-6 lg:mt-0 mb-9 lg:mb-0"
+          >
+            <a
+              href="/"
+              class="hover:border-b-2 hover:pb-2 hover:text-xl hover:duration-500 mr-4"
+              >Read more</a
+            >
+            <svg
+              class="flex w-5"
+              data-slot="icon"
+              fill="none"
+              stroke-width="2.5"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <!-- End content -->
+
+        <div class="">
+          <img
+            class=""
+            src="img/photo1.png"
+            alt="home-design"
+            width="737"
+            height="555"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End img -->
+    <div
+      id="hidden3"
+      class="absolute bottom-16 right-3 bg-bground shadow-2xl lg:right-28 lg:bottom-48 lg:pr-40 lg:pt-3 lg:pl-3 lg:pb-5 pt-3 pl-5 pb-6 pr-16"
+    >
+      <div class="overflow-hidden">
+        <div class="flex items-center mb-5">
+          <img
+            class="rounded-full lg:w-12 lg:h-12 w-9 h-9 lg:mr-5 mr-3"
+            src="img/photo2.png"
+            alt="designer-photo"
+          />
+          <div class="">
+            <h3 class="lg:text-sm text-xs font-light">Aliza Webber</h3>
+            <p class="lg:text-xs text-10 text-third lg:mt-2 mt-1">
+              Interior designer
+            </p>
+          </div>
+        </div>
+
+        <h2
+          class="font-Lora flex lg:text-24 text-18 lg:w-56 w-48 ml-2 font-semibold"
+        >
+          Designed in 2020 by Aliza Webber
+        </h2>
+      </div>
+    </div>
+    <!-- End card -->
+
+    <div id="hidden4">
+      <footer
+        class="text-center text-14 align-text-bottom lg:mt-64 mt-36 text-secondary font-extralight mb-6"
+      >
+        created by <strong>Nurzhan</strong> - devChallenges.io
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
