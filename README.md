@@ -6,6 +6,10 @@
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
+<div align="center">
+   Used technologies: HTML, CSS, JavaScript, TailwindCSS, Next.js
+</div>
+
 ## Setup
 
 Make sure to install the dependencies:
